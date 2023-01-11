@@ -1,0 +1,29 @@
+.btn {
+    padding: 11px 30px;
+    border-radius: 30px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+}
+
+@media (width<=480px) {
+    .btn {
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 20px;
+        text-align: center;
+    }
+}
+
+.explore_btn {
+    color: #fff;
+    background: #2F2F2F;
+    transition: 0.3s ease all;
+    border: 1px solid #2F2F2F;
+}
+
+.explore_btn:hover {
+    color: #2F2F2F;
+    background: #fff;
+}

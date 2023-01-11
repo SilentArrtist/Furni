@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script type="module" src="./scripts/swiper.js"></script>
+    <script type="module" src="./scripts/burger.js"></script>
+    <title>Furni.</title>
+</head>
+
+<body class="main__body">
+    <header class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo"><a href="#">Furni.</a></div>
+                <ul class="menu" id="menu">
+                    <li class="menu_item"><a class="link" href="#">Home</a></li>
+                    <li class="menu_item"><a class="link" href="#section_materials">about us</a></li>
+                    <li class="menu_item"><a class="link" href="#section_advantages">Services</a></li>
+                    <li class="menu_item"><a class="link" href="#section_recent">Blog</a></li>
+                    <li class="menu_item"><a class="link" href="#footer">Contact us</a></li>
+                </ul>
+                <div class="burger" id="burger">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="popup"></div>
+    <main>
+        <section class="section_hero">
+            <div class="container">
+                <div class="hero">
+                    <div class="hero_info">
+                        <div class="title">Modern Interior</br>Design Studio</div>
+                        <div class="buttons">
+                            <div class="hero_btn btn">Shop Now</div>
+                            <div class="hero_btn btn">Explore</div>
+                        </div>
+                    </div>
+                    <div class="hero_img"><img src="./img/couch_1.png" alt=""></div>
+                </div>
+            </div>
+            <div class="hero_dotted"><img src="./img/dotted_1.png" alt=""></div>
+        </section>
+        <section class="section_materials" id="section_materials">
+            <div class="container">
+                <div class="materials">
+                    <div class="materials_info">
+                        <div class="title">Crafted with excellent material.</div>
+                        <div class="subtitle">Donec mattis porta eros, aliquet finibus risus interdum at. Nulla vivethe
+                            as it was for us to know what was to be done.</div>
+                        <div class="buttons">
+                            <div class="materials_btn btn explore_btn">Explore</div>
+                        </div>
+                    </div>
+                    <div class="materials_products">
+                        <div class="product_block">
+                            <div class="product_image"><img src="./img/product-1.png" alt=""></div>
+                            <div class="product_info">
+                                <div class="product_name">Nordic CHAIR</div>
+                                <div class="product_price">$50.00</div>
+                            </div>
+
+                        </div>
+                        <div class="product_block">
+                            <div class="product_image"><img src="./img/product-2.png" alt=""></div>
+                            <div class="product_info">
+                                <div class="product_name">Kruzo Aero Chair</div>
+                                <div class="product_price">$78.00</div>
+                            </div>
+                        </div>
+                        <div class="product_block">
+                            <div class="product_image"><img src="./img/product-3.png" alt=""></div>
+                            <div class="product_info">
+                                <div class="product_name">Ergonomic Chair</div>
+                                <div class="product_price">$43.00</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section_advantages" id="section_advantages">
+            <div class="container">
+                <div class="advantages">
+                    <div class="advantages_block">
+                        <div class="title">Why chose us</div>
+                        <div class="subtitle">Donec mattis porta eros, aliquet finibus risus interdum at. Nulla vivethe
+                            as it was for us to know what was to be done.</div>
+                        <div class="advantages_items">
+                            <div class="advantages_square advantages_image"></div>
+                            <div class="advantages_item">
+                                <div class="icon">
+                                    <img src="./img/Truck.png" alt="">
+                                    <div class="circle"></div>
+                                </div>
+                                <div class="item_title">Fast & Free Shipping </div>
+                                <div class="item_subtitle">Donec mattis porta eros, aliquet finibus risus interdum at.
+                                    Nulla vivethe as it was</div>
+                            </div>
+                            <div class="advantages_item">
+                                <div class="icon">
+                                    <img src="./img/Shop_Bag.png" alt="">
+                                    <div class="circle"></div>
+                                </div>
+                                <div class="item_title">Easy to shop</div>
+                                <div class="item_subtitle">Donec mattis porta eros, aliquet finibus risus interdum at.
+                                    Nulla vivethe as it was</div>
+                            </div>
+                            <div class="advantages_item">
+                                <div class="icon">
+                                    <img src="./img/Support.png" alt="">
+                                    <div class="circle"></div>
+                                </div>
+                                <div class="item_title">24/7 Support </div>
+                                <div class="item_subtitle">Donec mattis porta eros, aliquet finibus risus interdum at.
+                                    Nulla vivethe as it was</div>
+                            </div>
+                            <div class="advantages_item">
+                                <div class="icon">
+                                    <img src="./img/Return.png" alt="">
+                                    <div class="circle"></div>
+                                </div>
+                                <div class="item_title">Hassle Free Returns </div>
+                                <div class="item_subtitle">Donec mattis porta eros, aliquet finibus risus interdum at.
+                                    Nulla vivethe as it was</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chose_us_block">
+                        <img src="./img/why-choose-us.png" alt="">
+                    </div>
+                    <div class="advantages_dotted"><img src="./img/dotted_2.png" alt=""></div>
+                </div>
+            </div>
+        </section>
+        <section class="section_design" id="section_design">
+            <div class="container">
+                <div class="design">
+                    <div class="design_block first">
+                        <div class="design_image image_1">
+                            <img src="./img/img-grid-1-1.png" alt="">
+                        </div>
+                        <div class="design_image image_2">
+                            <img src="./img/img-grid-2-1.png" alt="">
+                        </div>
+                        <div class="design_image image_3">
+                            <img src="./img/img-grid-3-1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="design_block second">
+                        <div class="title">We help you make <br> Modern Interior Design </div>
+                        <div class="subtitle">Donec mattis porta eros, aliquet finibus risus interdum at. Nulla vivethe
+                            as it was for us to know what was to be done. the this is a long post for the text.`This
+                            small text has to be place here, since this is a place holder. You can also chane it.</div>
+                        <div class="design_items">
+                            <div class="design_item top">
+                                <div class="icon">
+                                    <div class="circle"></div>
+                                </div>
+                                <div class="item_title">Donec mattis porta eros,let aliquet finibus ri </div>
+                            </div>
+                            <div class="design_item top">
+                                <div class="icon">
+                                    <div class="circle"></div>
+                                </div>
+                                <div class="item_title">Donec mattis porta eros,let aliquet finibus ri </div>
+                            </div>
+                            <div class="design_item">
+                                <div class="icon">
+                                    <div class="circle"></div>
+                                </div>
+                                <div class="item_title">Donec mattis porta eros,let aliquet finibus ri</div>
+                            </div>
+                            <div class="design_item">
+                                <div class="icon">
+                                    <div class="circle"></div>
+                                </div>
+                                <div class="item_title">Donec mattis porta eros,let aliquet finibus ri</div>
+                            </div>
+                        </div>
+                        <div class="design_btn btn explore_btn">Explore</div>
+                    </div>
+
+                    <div class="design_dotted"><img src="./img/dotted_3.png" alt=""></div>
+                </div>
+            </div>
+        </section>
+        <section class="section_products">
+            <div class="container">
+                <div class="products">
+                    <div class="product_item">
+                        <div class="item_image">
+                            <img src="./img/product-1-mini.png" alt="">
+                        </div>
+                        <div class="item_info">
+                            <div class="title">Nordic Chair</div>
+                            <div class="subtitle">Donec mattis porta eros, aliquet finibus risus in. Donecd </div>
+                            <div class="read_more">Read more</div>
+                        </div>
+                    </div>
+                    <div class="product_item">
+                        <div class="item_image">
+                            <img src="./img/product-2-mini.png" alt="">
+                        </div>
+                        <div class="item_info">
+                            <div class="title">Nordic Chair</div>
+                            <div class="subtitle">Donec mattis porta eros, aliquet finibus risus in. Donecd </div>
+                            <div class="read_more">Read more</div>
+                        </div>
+                    </div>
+                    <div class="product_item">
+                        <div class="item_image">
+                            <img src="./img/product-3-mini.png" alt="">
+                        </div>
+                        <div class="item_info">
+                            <div class="title">Nordic Chair</div>
+                            <div class="subtitle">Donec mattis porta eros, aliquet finibus risus in. Donecd </div>
+                            <div class="read_more">Read more</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section_testimonials">
+            <div class="container">
+                <div class="testimoials">
+                    <div class="title">Testimonials</div>
+                    <div class="swiper swiper-testimonials">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="slide_data">
+                                    <div class="text">
+                                        Donec nibh magna, interdum quis massa sed, rhoncus laoreet quam. Mauris accumsan
+                                        felis fermentum euismod egestas. Mauris ante augue, cursus sit amet arcu a,
+                                        maximus suscipit nibh. Integer vel nibh tellus. Pellentesque in risus non dui
+                                        venenatis sollicitudin sed vitae diam. Fusce tincidunt nisl mi, at molestie odio
+                                        accumsan non. Pellentesque ma
+                                    </div>
+                                    <div class="person">
+                                        <div class="photo"><img src="./img/person-1 1.jpg" alt=""></div>
+                                        <div class="name">Michelle Anna</div>
+                                        <div class="role">CEO, Co-Founder, XYZ Inc.</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slide_data">
+                                    <div class="text">
+                                        Donec nibh magna, interdum quis massa sed, rhoncus laoreet quam. Mauris accumsan
+                                        felis fermentum euismod egestas. Mauris ante augue, cursus sit amet arcu a,
+                                        maximus suscipit nibh. Integer vel nibh tellus. Pellentesque in risus non dui
+                                        venenatis sollicitudin sed vitae diam. Fusce tincidunt nisl mi, at molestie odio
+                                        accumsan non. Pellentesque ma
+                                    </div>
+                                    <div class="person">
+                                        <div class="photo"><img src="./img/person-1 1.jpg" alt=""></div>
+                                        <div class="name">Michelle Anna</div>
+                                        <div class="role">CEO, Co-Founder, XYZ Inc.</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slide_data">
+                                    <div class="text">
+                                        Donec nibh magna, interdum quis massa sed, rhoncus laoreet quam. Mauris accumsan
+                                        felis fermentum euismod egestas. Mauris ante augue, cursus sit amet arcu a,
+                                        maximus suscipit nibh. Integer vel nibh tellus. Pellentesque in risus non dui
+                                        venenatis sollicitudin sed vitae diam. Fusce tincidunt nisl mi, at molestie odio
+                                        accumsan non. Pellentesque ma
+                                    </div>
+                                    <div class="person">
+                                        <div class="photo"><img src="./img/person-1 1.jpg" alt=""></div>
+                                        <div class="name">Michelle Anna</div>
+                                        <div class="role">CEO, Co-Founder, XYZ Inc.</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slide_data">
+                                    <div class="text">
+                                        Donec nibh magna, interdum quis massa sed, rhoncus laoreet quam. Mauris accumsan
+                                        felis fermentum euismod egestas. Mauris ante augue, cursus sit amet arcu a,
+                                        maximus suscipit nibh. Integer vel nibh tellus. Pellentesque in risus non dui
+                                        venenatis sollicitudin sed vitae diam. Fusce tincidunt nisl mi, at molestie odio
+                                        accumsan non. Pellentesque ma
+                                    </div>
+                                    <div class="person">
+                                        <div class="photo"><img src="./img/person-1 1.jpg" alt=""></div>
+                                        <div class="name">Michelle Anna</div>
+                                        <div class="role">CEO, Co-Founder, XYZ Inc.</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slide_data">
+                                    <div class="text">
+                                        Donec nibh magna, interdum quis massa sed, rhoncus laoreet quam. Mauris accumsan
+                                        felis fermentum euismod egestas. Mauris ante augue, cursus sit amet arcu a,
+                                        maximus suscipit nibh. Integer vel nibh tellus. Pellentesque in risus non dui
+                                        venenatis sollicitudin sed vitae diam. Fusce tincidunt nisl mi, at molestie odio
+                                        accumsan non. Pellentesque ma
+                                    </div>
+                                    <div class="person">
+                                        <div class="photo"><img src="./img/person-1 1.jpg" alt=""></div>
+                                        <div class="name">Michelle Anna</div>
+                                        <div class="role">CEO, Co-Founder, XYZ Inc.</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slide_data">
+                                    <div class="text">
+                                        Donec nibh magna, interdum quis massa sed, rhoncus laoreet quam. Mauris accumsan
+                                        felis fermentum euismod egestas. Mauris ante augue, cursus sit amet arcu a,
+                                        maximus suscipit nibh. Integer vel nibh tellus. Pellentesque in risus non dui
+                                        venenatis sollicitudin sed vitae diam. Fusce tincidunt nisl mi, at molestie odio
+                                        accumsan non. Pellentesque ma
+                                    </div>
+                                    <div class="person">
+                                        <div class="photo"><img src="./img/person-1 1.jpg" alt=""></div>
+                                        <div class="name">Michelle Anna</div>
+                                        <div class="role">CEO, Co-Founder, XYZ Inc.</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slide_data">
+                                    <div class="text">
+                                        Donec nibh magna, interdum quis massa sed, rhoncus laoreet quam. Mauris accumsan
+                                        felis fermentum euismod egestas. Mauris ante augue, cursus sit amet arcu a,
+                                        maximus suscipit nibh. Integer vel nibh tellus. Pellentesque in risus non dui
+                                        venenatis sollicitudin sed vitae diam. Fusce tincidunt nisl mi, at molestie odio
+                                        accumsan non. Pellentesque ma
+                                    </div>
+                                    <div class="person">
+                                        <div class="photo"><img src="./img/person-1 1.jpg" alt=""></div>
+                                        <div class="name">Michelle Anna</div>
+                                        <div class="role">CEO, Co-Founder, XYZ Inc.</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slide_data">
+                                    <div class="text">
+                                        Donec nibh magna, interdum quis massa sed, rhoncus laoreet quam. Mauris accumsan
+                                        felis fermentum euismod egestas. Mauris ante augue, cursus sit amet arcu a,
+                                        maximus suscipit nibh. Integer vel nibh tellus. Pellentesque in risus non dui
+                                        venenatis sollicitudin sed vitae diam. Fusce tincidunt nisl mi, at molestie odio
+                                        accumsan non. Pellentesque ma
+                                    </div>
+                                    <div class="person">
+                                        <div class="photo"><img src="./img/person-1 1.jpg" alt=""></div>
+                                        <div class="name">Michelle Anna</div>
+                                        <div class="role">CEO, Co-Founder, XYZ Inc.</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper__prev">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="20" viewBox="0 0 10 20"
+                                fill="none">
+                                <path d="M9 18.43L1 10.1164L9 1.80273" stroke="black" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <div class="swiper__next">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="20" viewBox="0 0 10 20"
+                                fill="none">
+                                <path d="M1 18.43L9 10.1164L1 1.80273" stroke="black" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="section_recent" id="section_recent">
+            <div class="container">
+                <div class="recent">
+                    <div class="recent_info">
+                        <div class="recent_title">Recent Blog</div>
+                        <div class="view_all">View All Posts</div>
+                    </div>
+                    <div class="recent_items">
+                        <div class="recent_item">
+                            <div class="item_image">
+                                <img src="./img/post-1 1.png" alt="">
+                            </div>
+                            <div class="item_data">
+                                <div class="title">First Time Home Owner Ideas</div>
+                                <div class="meta">by <span class="bold">Nana Ama</span> on <span class="bold">Nov 18th,
+                                        2022</span></div>
+                            </div>
+                        </div>
+                        <div class="recent_item">
+                            <div class="item_image">
+                                <img src="./img/post-2 1.png" alt="">
+                            </div>
+                            <div class="item_data">
+                                <div class="title">First Time Home Owner Ideas</div>
+                                <div class="meta">by <span class="bold">Nana Ama</span> on <span class="bold">Nov 18th,
+                                        2022</span></div>
+                            </div>
+                        </div>
+                        <div class="recent_item">
+                            <div class="item_image">
+                                <img src="./img/post-3 1.png" alt="">
+                            </div>
+                            <div class="item_data">
+                                <div class="title">First Time Home Owner Ideas</div>
+                                <div class="meta">by <span class="bold">Nana Ama</span> on <span class="bold">Nov 18th,
+                                        2022</span></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="footer">
+        <div class="container">
+            <div class="footer_wrapper">
+                <div class="subscribe">
+                    <div class="subscribe_block">
+                        <div class="top">
+                            <div class="image"><img src="./img/envelope-regular 1.png" alt=""></div>
+                            <span>Subscribe to Newsletter</span>
+                        </div>
+                        <div class="bottom">
+                            <div class="inputs">
+                                <input placeholder="Name" type="text" class="name">
+                                <input placeholder="Email" type="text" class="email">
+                            </div>
+                            <div class="image">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29"
+                                    fill="none">
+                                    <path
+                                        d="M28.2131 0.985414C28.7851 1.36365 29.0853 2.01746 28.9777 2.67128L25.3527 25.1494C25.2677 25.6736 24.9336 26.1328 24.4465 26.3922C23.9593 26.6516 23.3759 26.684 22.8605 26.4787L15.7068 23.6419L13.4355 27.6674C13.141 28.1915 12.5123 28.4563 11.9062 28.3104C11.3002 28.1645 10.8754 27.6458 10.8754 27.0514V21.8642C10.8754 21.5778 10.9773 21.2968 11.1642 21.0699L20.5269 9.58223C20.6685 9.19859 20.1588 8.80954 19.7906 9.12834L9.65192 17.8765L7.83942 19.438C7.31833 19.8865 6.57634 20.0108 5.92497 19.7514L1.11052 17.8386C0.476143 17.5847 0.0456746 17.0119 0.00602619 16.3527C-0.0336222 15.6935 0.31755 15.0721 0.91794 14.7425L26.2929 0.909767C26.899 0.580159 27.6467 0.61258 28.2187 0.985414H28.2131Z"
+                                        fill="white" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="subscribe_block sofa_image">
+                        <img src="./img/sofa 1.png" alt="">
+                    </div>
+                </div>
+                <div class="about">
+                    <div class="title">Furni.</div>
+                    <div class="about_block">
+                        <div class="subtitle">Donec mattis porta eros, aliquet finibus risus interdum at. Nulla vivethe
+                            as it was for us to know what was to be done. the this is a long post for the text.`This
+                            small text has to be place here, since this is
+                        </div>
+                        <div class="links">
+                            <div class="column">
+                                <div class="item">About us</div>
+                                <div class="item">Services</div>
+                                <div class="item">Blog</div>
+                                <div class="item">Contact us</div>
+                            </div>
+                            <div class="column">
+                                <div class="item">Support</div>
+                                <div class="item">Knowledge base</div>
+                                <div class="item">Live Chat</div>
+                            </div>
+                            <div class="column">
+                                <div class="item">Jobs</div>
+                                <div class="item">Our team</div>
+                                <div class="item">Leadership</div>
+                                <div class="item">Privacy Policy</div>
+                            </div>
+                            <div class="column">
+                                <div class="item">Nordic Chair</div>
+                                <div class="item">Cruezo Aero</div>
+                                <div class="item">Ergonomic</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="social_links">
+                    <div class="social_link" id="facebook">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="19" viewBox="0 0 12 19" fill="none">
+                            <path
+                                d="M10.4678 10.6875L11.001 7.24895H7.6669V5.01756C7.6669 4.07684 8.13265 3.15986 9.6259 3.15986H11.1416V0.232305C11.1416 0.232305 9.76615 0 8.45102 0C5.70527 0 3.91052 1.64691 3.91052 4.62828V7.24895H0.858398V10.6875H3.91052V19H7.6669V10.6875H10.4678Z"
+                                fill="black" />
+                        </svg>
+                    </div>
+                    <div class="social_link" id="instagram">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                            <path
+                                d="M8.00356 3.95708C5.73214 3.95708 3.89999 5.7606 3.89999 7.99653C3.89999 10.2325 5.73214 12.036 8.00356 12.036C10.275 12.036 12.1071 10.2325 12.1071 7.99653C12.1071 5.7606 10.275 3.95708 8.00356 3.95708ZM8.00356 10.6227C6.53571 10.6227 5.33571 9.44497 5.33571 7.99653C5.33571 6.5481 6.53214 5.37036 8.00356 5.37036C9.47499 5.37036 10.6714 6.5481 10.6714 7.99653C10.6714 9.44497 9.47142 10.6227 8.00356 10.6227ZM13.2321 3.79185C13.2321 4.31567 12.8036 4.73403 12.275 4.73403C11.7429 4.73403 11.3179 4.31216 11.3179 3.79185C11.3179 3.27153 11.7464 2.84966 12.275 2.84966C12.8036 2.84966 13.2321 3.27153 13.2321 3.79185ZM15.95 4.7481C15.8893 3.48599 15.5964 2.36802 14.6571 1.44692C13.7214 0.52583 12.5857 0.237549 11.3036 0.174268C9.98214 0.100439 6.02142 0.100439 4.69999 0.174268C3.42142 0.234033 2.28571 0.522314 1.34642 1.44341C0.407136 2.3645 0.11785 3.48247 0.0535644 4.74458C-0.0214355 6.04536 -0.0214355 9.94419 0.0535644 11.245C0.114279 12.5071 0.407136 13.625 1.34642 14.5461C2.28571 15.4672 3.41785 15.7555 4.69999 15.8188C6.02142 15.8926 9.98214 15.8926 11.3036 15.8188C12.5857 15.759 13.7214 15.4708 14.6571 14.5461C15.5928 13.625 15.8857 12.5071 15.95 11.245C16.025 9.94419 16.025 6.04888 15.95 4.7481ZM14.2428 12.6407C13.9643 13.3297 13.425 13.8606 12.7214 14.1383C11.6679 14.5497 9.16785 14.4547 8.00356 14.4547C6.83928 14.4547 4.33571 14.5461 3.28571 14.1383C2.58571 13.8641 2.04642 13.3333 1.76428 12.6407C1.34642 11.6036 1.44285 9.14263 1.44285 7.99653C1.44285 6.85044 1.34999 4.38599 1.76428 3.35239C2.04285 2.66333 2.58214 2.13247 3.28571 1.85474C4.33928 1.44341 6.83928 1.53833 8.00356 1.53833C9.16785 1.53833 11.6714 1.44692 12.7214 1.85474C13.4214 2.12895 13.9607 2.65981 14.2428 3.35239C14.6607 4.3895 14.5643 6.85044 14.5643 7.99653C14.5643 9.14263 14.6607 11.6071 14.2428 12.6407Z"
+                                fill="black" />
+                        </svg>
+                    </div>
+                    <div class="social_link" id="twitter">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="15" viewBox="0 0 17 15" fill="none">
+                            <path
+                                d="M15.2525 4.03741C15.2633 4.18842 15.2633 4.33946 15.2633 4.49046C15.2633 9.0964 11.7576 14.4035 5.35025 14.4035C3.37626 14.4035 1.54252 13.8318 0 12.8395C0.280467 12.8718 0.550109 12.8826 0.841367 12.8826C2.47015 12.8826 3.96953 12.3325 5.16687 11.394C3.63514 11.3617 2.35151 10.3585 1.90925 8.97777C2.125 9.01011 2.34072 9.03169 2.56727 9.03169C2.88007 9.03169 3.19291 8.98853 3.48414 8.91306C1.8877 8.58942 0.690326 7.18716 0.690326 5.49363V5.4505C1.15414 5.70938 1.69353 5.87118 2.26518 5.89273C1.32673 5.26709 0.711908 4.19921 0.711908 2.99108C0.711908 2.34388 0.884465 1.75061 1.18651 1.23284C2.90162 3.34705 5.47968 4.72774 8.37051 4.87878C8.31659 4.61989 8.28421 4.35025 8.28421 4.08057C8.28421 2.1605 9.83752 0.596436 11.7683 0.596436C12.7715 0.596436 13.6776 1.01712 14.314 1.69669C15.1014 1.54568 15.8565 1.25442 16.5253 0.85532C16.2664 1.66435 15.7163 2.34392 14.9936 2.77536C15.6948 2.69989 16.3743 2.50568 16.9999 2.23604C16.5254 2.92637 15.9321 3.54119 15.2525 4.03741Z"
+                                fill="black" />
+                        </svg>
+                    </div>
+                    <div class="social_link" id="linkedin">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                            <path
+                                d="M3.13375 14.0002H0.23125V4.6533H3.13375V14.0002ZM1.68094 3.3783C0.752813 3.3783 0 2.60955 0 1.68143C6.64312e-09 1.23561 0.177098 0.80806 0.492335 0.492823C0.807572 0.177587 1.23513 0.000488281 1.68094 0.000488281C2.12675 0.000488281 2.5543 0.177587 2.86954 0.492823C3.18478 0.80806 3.36188 1.23561 3.36188 1.68143C3.36188 2.60955 2.60875 3.3783 1.68094 3.3783ZM13.9969 14.0002H11.1006V9.45018C11.1006 8.3658 11.0787 6.97518 9.59156 6.97518C8.0825 6.97518 7.85125 8.1533 7.85125 9.37205V14.0002H4.95188V4.6533H7.73562V5.9283H7.77625C8.16375 5.19393 9.11031 4.41893 10.5225 4.41893C13.46 4.41893 14 6.3533 14 8.8658V14.0002H13.9969Z"
+                                fill="black" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <span>Copyright 2023. All Rights Reserved.</span>
+                    <div>
+                        <span>Terms & Conditions</span>
+                        <span>Privacy Policy</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
